@@ -1,0 +1,35 @@
+#container {
+    width: 800px;
+    margin: 50px auto;
+}
+    #container header {
+        -webkit-border-radius: 15px;
+        background: #c0c0f0;
+        padding: 15px;
+        overflow: hidden;
+    }
+        #container header h1 {
+            margin-top: 0px;
+        }
+        #container header h3 > h3 {
+            margin-top: inherit;
+        }
+        #container header h3 {
+            margin-top: 0px;
+        }
+
+.col-25p {
+    float: left;
+    width: 24.5%;
+    display: inline-block;
+}
+.col-50p {
+    float: left;
+    width: 49.5%;
+    display: inline-block;
+}
+.col-75p {
+    float: left;
+    width: 74.5%;
+    display: inline-block;
+}
