@@ -42,6 +42,9 @@ body {
   background: #cccccc;
   z-index: 100;
   padding: 10px; }
+#main div[role=content] {
+  margin: 15px;
+}
 
 .half {
   float: left;
